@@ -4,7 +4,7 @@ summary: Zack Gemmell is product designer and prototyper living and working in S
 redirect_from: /asana/
 ---
 
-<!DOCTYPE html>
+
 <html lang="en">
 {% include head.html %}
     <body id="home">
