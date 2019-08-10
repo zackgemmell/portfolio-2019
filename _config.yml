@@ -17,7 +17,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-plugins_dir:
+plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 include: ['_pages']
+
+whitelist:
+  - jekyll-redirect-from
