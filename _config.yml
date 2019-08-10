@@ -11,7 +11,7 @@ name: Zack Gemmell
 
 safe: true
 lsi: false
-source: /asana/
+source: /asana
 
 # Build settings
 markdown: kramdown
