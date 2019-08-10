@@ -19,3 +19,5 @@ exclude:
 
 plugins_dir:
   - jekyll-redirect-from
+
+include: ['_pages']
