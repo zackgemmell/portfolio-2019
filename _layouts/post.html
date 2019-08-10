@@ -24,12 +24,15 @@
                         <p class="story-section-paragraph">{{ paragraph | textilize }}</p>
                     {% endfor %}
                 </section>
+                {% if page.outcome %}
                 <section class="story-section">
                     <h3 class="story-section-label">Outcome</h3>
                     {% for paragraph in page.outcome %}
                         <p class="story-section-paragraph">{{ paragraph | textilize }}</p>
                     {% endfor %}
                 </section>
+                {% else %}
+                {% endif %}
                 <section class="story-section">
                     <h3 class="story-section-label">Tools</h3>
                     {% for paragraph in page.tools %}
