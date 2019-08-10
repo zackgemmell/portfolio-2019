@@ -9,10 +9,13 @@ baseurl: /asana
 
 name: Zack Gemmell
 
+safe: true
+lsi: false
+source: /asana/
+
 # Build settings
 markdown: kramdown
 theme: minima
-permalink: "/asana/:categories/:year/:month/:day/:title.html"
 gems:
   - jekyll-feed
 exclude:
