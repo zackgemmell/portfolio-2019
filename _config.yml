@@ -2,20 +2,20 @@
 title: The Portfolio of Zack Gemmell
 email: zack.gemmell@gmail.com
 description: "Product designer and prototyper living in San Diego."
-url: "http://zgemmell.com/"
+url: "http://zgemmell.com/asana/"
 github:  https://github.com/zackgemmell
 linkedin: https://www.linkedin.com/in/zackgemmell/
-baseurl: "/asana"
-
 
 name: Zack Gemmell
 
 # Build settings
 markdown: kramdown
 theme: minima
-permalink: none
+permalink: "/asana/:categories/:year/:month/:day/:title.html"
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+
+  
