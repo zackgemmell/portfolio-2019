@@ -1,5 +1,5 @@
 ---
 layout: post
 permalink: /asana/
-redirect_to: "/"
+redirect_to: ""
 ---
