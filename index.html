@@ -51,8 +51,8 @@ summary: Zack Gemmell is product designer and prototyper living and working in S
                            {% if post.type contains 'Featured' %}
                            {% else %}
                               <li class="tile-work">
-                                <a href="{{ post.url }}">
-                                    <img class= "tile-work-thumbnail" src="{{ post.thumbnail }}" alt="{{ post.thumbnailDesc }}">
+                                <a href="{{site.baseurl}}{{ post.url }}">
+                                    <img class= "tile-work-thumbnail" src="{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.thumbnailDesc }}">
                                     <div class="tile-work-description">
                                        <span class="tile-work-description-company">{{ post.company}}</span>
                                        <h2 class="tile-work-description-title">{{ post.title }}</h2>
