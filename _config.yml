@@ -16,7 +16,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-exclude: [vendor]
+exclude: ['vendor']
 
 plugins:
   - jekyll-redirect-from
