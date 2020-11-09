@@ -53,19 +53,14 @@ All of this highlighted the fundamental problem with how Raken’s information a
 
 <video autoplay loop>
   <source src="../images/project-and-company.mp4" type="video/mp4">
-  <source src="myVideo.webm" type="video/webm">
+  <source src="../images/project-and-company.webm" type="video/webm">
   <p>Your browser doesn't support HTML5 video. Here is
-     a <a href="myVideo.mp4">link to the video</a> instead.</p>
+     a <a href="../images/project-and-company.mp4">link to the video</a> instead.</p>
 </video>
-{: .post-image}
-<video type="video/mp4" src="../images/project-and-company.mp4" autoplay loop></video>
 {: .post-image}
 
 This is something
 {: .post-caption}
-
-
-
 
 Using atomic design principles ensures that every component in the library has all the necessary overrides as self contained symbols. 
 {: .post-paragraph-embedded-last}
