@@ -1,7 +1,7 @@
 # Site settings
-title: The Portfolio of Zack Gemmell
+title: Zack Gemmell
 email: zack.gemmell@gmail.com
-description: "Product designer and prototyper living in San Diego."
+description: "Product designer living in San Diego."
 url: "http://zgemmell.com/"
 github:  https://github.com/zackgemmell
 linkedin: https://www.linkedin.com/in/zackgemmell/
@@ -11,13 +11,16 @@ name: Zack Gemmell
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
-  - jekyll-feed
-  - jekyll-redirect-from
+
 exclude:
   - Gemfile
   - Gemfile.lock
+
+exclude: [vendor]
+
 plugins:
+  - jekyll-redirect-from
+  - jekyll-feed
   - jekyll-redirect-from
 
 include: ['_pages']
